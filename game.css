@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(50, 50, 50);
+}
+header{
+    background-color:whitesmoke;
+    padding: 20px;
+}
+header > h1{
+    text-align: center;
+    color: black;
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 3px solid white;
+    width: 200px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 46px;
+    padding: 15px 20px;
+    background-color: black;
+    color: whitesmoke;
+    position: relative;
+}
+
+.badges{
+    background-color: rgb(179, 57, 57);
+    font-size: 14px;
+    padding: 5px 10px;
+}
+#user-label{
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+#computer-label{
+    position: absolute;
+    top: 30px;
+    right: -25px;
+}
+
+.result{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choices{
+    text-align: center;
+    margin-top: 50px;
+}
+.choice{
+    display: inline-block;
+    padding: 10px;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: rgba(133, 36, 36, 0.907);
+}
+
+#action-message{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+/* Javascript CSS */
+.green-glow{
+    border : 4px solid rgb(1, 193, 1);
+    box-shadow: 0 0 10px greenyellow;
+}
+
+.red-glow{
+    border : 4px solid rgb(181, 0, 0);
+    box-shadow: 0 0 10px red;
+}
+
+.grey-glow{
+    border : 4px solid rgb(67, 67, 67);
+    box-shadow: 0 0 10px grey;
+}
